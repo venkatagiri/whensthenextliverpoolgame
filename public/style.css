@@ -7,7 +7,7 @@ html, body {
   font: 16px 'Roboto', sans-serif;
 }
 body {
-  min-width: 400px;
+  min-width: 320px;
   max-width: 600px;
   margin: 0 auto;
   cursor: default;
@@ -70,6 +70,6 @@ timer {
 }
 @media all and (max-width: 480px) {
   body {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
