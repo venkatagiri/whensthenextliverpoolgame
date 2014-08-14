@@ -1,0 +1,30 @@
+{
+  "name": "whensthenextliverpoolgame",
+  "version": "0.0.29",
+  "description": "Countdown to the next Liverpool game.",
+  "keywords": [
+    "liverpool",
+    "fixture",
+    "schedule"
+  ],
+  "author": "Venkata Giri Reddy (@venkatagiri)",
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/venkatagiri/whensthenextliverpoolgame"
+  },
+  "dependencies": {
+    "ejs": "~0.8.5",
+    "express": "~3.5.0",
+    "ical": "^0.2.0",
+    "moment-timezone": "^0.2.1"
+  }
+}
