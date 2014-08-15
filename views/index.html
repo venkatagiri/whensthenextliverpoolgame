@@ -20,7 +20,7 @@
     whensthenext<span>liverpool</span>game
   </header>
   <section class="info">
-    <timer end-time="<%= fixture.start.getTime() %>">
+    <timer end-time="<%= fixture.start %>">
       {{days}}<span class="suffix">D</span>
       <span class="divider">|</span>
       {{hours}}<span class="suffix">H</span>
@@ -31,7 +31,7 @@
     </timer>
     <p>
       versus <%= fixture.versus %> (<%= fixture.location %>)<br />
-      on <script>document.write(moment("<%= fixture.start.toISOString() %>").format('dddd, MMMM Do, h:mm:ss a'))</script>
+      on <script>document.write(moment(<%= fixture.start %>).format('dddd, MMMM Do, h:mm:ss a'))</script>
     </>
   </section>
   <footer>
