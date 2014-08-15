@@ -1,3 +1,3 @@
 # whensthenextliverpoolgame
 
-Countdown to the next Liverpool game. http://whensthenextliverpoolgame.herokuapp.com
+Countdown to the next Liverpool game. http://venkatagiri.me/whensthenextliverpoolgame
